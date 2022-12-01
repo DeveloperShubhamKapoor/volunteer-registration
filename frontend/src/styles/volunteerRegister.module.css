@@ -1,0 +1,36 @@
+.form_volunteer{
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+}
+.form_volunteer>div{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.form_volunteer>div>p{
+    width: 20%;
+    padding-right: 3px;
+    text-align: end;
+}
+.form_volunteer>div>input{
+    width: 50%;
+    padding: 4px;
+    height: 20px;
+}
+.set_register_btn{
+    padding: 8px;
+    background-color: white;  
+    transition:ease-out;
+    transition-duration: 1s;
+
+}
+.set_register_btn:hover{
+    background-color:#0ec0e2 ;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
