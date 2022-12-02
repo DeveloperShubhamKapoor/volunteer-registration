@@ -1,0 +1,38 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.data_display_container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 10px;
+}
+.set_display_table{
+    width: 100%;
+    padding: 10px;
+}
+.set_data_heading{
+    width: 100%;
+    height: 40px;
+    background-color: #0ec0e2;
+    color: white;
+    font-size: 18px;
+}
+.set_data_info{
+    width: 100%;
+    height: 30px;
+}
+.set_data_info>tr>td{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.set_data_info>tr>td:hover{
+    background-color: #0ec0e2;
+    color: white;
+}
+.set_heading{
+    font-size: 20px;
+}

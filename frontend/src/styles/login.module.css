@@ -1,0 +1,21 @@
+.form_container{
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    height: 150px;
+    padding-top: 15px;
+    background-color: rgb(230, 225, 225);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form_container>input{
+    width: 50%;
+    padding: 7px;
+    margin-bottom: 8px;
+}
+.form_container>button{
+    padding: 8px 13px ;
+    margin-right: 41%;
+    background-color:#0ec0e2 ;
+    border: none;
+    font-size: 15px;
+}
