@@ -79,7 +79,7 @@ export const VolunteerRegister=()=>{
          && volunteerData.spokenLanguage.length>0)
          {
             setLoading(true)
-            fetch("http://localhost:5500/volunteer/register",{
+            fetch("https://volunteer-registration-backend.up.railway.app/volunteer/register",{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"

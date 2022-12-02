@@ -9,7 +9,7 @@ export const VolunteerData=()=>{
     const [loading,setLoading] = useState(true)
     console.log(volunteerData)
     useEffect(()=>{
-        fetch("http://localhost:5500/volunteer")
+        fetch("https://volunteer-registration-backend.up.railway.app/volunteer")
         .then((res)=>res.json())
         .then((res)=>setVolunteerData(res.data))
         .then(()=>setLoading(false))
